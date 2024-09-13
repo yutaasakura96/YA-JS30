@@ -85,6 +85,21 @@ html {
   border-radius: 50%;
 }
 
+.rotate {
+  animation: coverRotate 10s linear infinite;
+  animation-play-state: paused;
+}
+
+@keyframes coverRotate {
+  0% {
+    transform: rotateZ(0);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
 .cover span {
   font-family: 'Delicious Handrawn', cursive;
   display: block;
@@ -153,7 +168,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 30%;
+  width: 0;
   height: 100%;
   background: linear-gradient(to right, #3baa7b, #62bc68);
   border-radius: 0.5rem;
