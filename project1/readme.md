@@ -6,8 +6,8 @@ This is a custom-built Spotify-inspired music player, designed using HTML, CSS, 
 
 - **Play/Pause Functionality**: Control the playback of music using the play/pause button.
 - **Previous/Next Song Navigation**: Easily switch between songs using the previous and next buttons.
-- **Shuffle Functionalitys**: Shuffle through songs when shuffle button is activated.
-- **Repeat Functionality**: Repeat current song when activated.
+- **Shuffle Functionalitys**: Shuffle through songs when shuffle button is activated. Activating shuffle will automatically disable repeat mode.
+- **Repeat Functionality**: Repeat current song when activated. Activating repeat will automatically disable shuffle mode.
 - **Responsive Design**: Optimized for various screen sizes.
 - **Neomorphism UI Design**: Subtle shadow effects to create a soft, minimalistic look.
 - **Song Progress Bar**: A progress bar that tracks the current song's playback time.
@@ -30,7 +30,6 @@ This is a custom-built Spotify-inspired music player, designed using HTML, CSS, 
 - `assets/`: Folder containing the images and cover art for the player.
 
 ## Future Improvements
-- Add shuffle and repeat functionality to shuffle through songs and repeat the current track.
 - Add more dynamic song data by integrating with the Spotify API or SoundCloud API (https://developers.soundcloud.com/docs).
 - Implement volume control.
 - Add playlist functionality where users can create and save their own playlists.

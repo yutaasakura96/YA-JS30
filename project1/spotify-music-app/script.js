@@ -88,6 +88,7 @@ shuffleBtn.addEventListener("click", () => {
     shuffleBtn.classList.remove("shuffle-active");
   } else {
     shuffleBtn.classList.add("shuffle-active");
+    repeatBtn.classList.remove("repeat-active");
   }
 });
 
@@ -96,6 +97,7 @@ repeatBtn.addEventListener("click", () => {
     repeatBtn.classList.remove("repeat-active");
   } else {
     repeatBtn.classList.add("repeat-active");
+    shuffleBtn.classList.remove("shuffle-active");
   }
 });
 
