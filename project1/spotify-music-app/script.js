@@ -28,6 +28,7 @@ const cover = document.querySelector(".cover");
 const playPauseBtn = document.querySelector(".play-pause");
 const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
+const shuffleBtn = document.querySelector(".shuffle-btn");
 const audio = document.querySelector(".audio");
 const songTime = document.querySelector(".song-time");
 const songProgress = document.querySelector(".song-progress");
@@ -65,10 +66,31 @@ const pauseSong = () => {
   audio.pause();
 };
 
+const shuffleSong = () => {
+  let randomIndex;
+  do {
+    randomIndex = Math.floor(Math.random() * songData.length);
+  } while (randomIndex === songIndex);
+
+  songIndex = randomIndex;
+  loadSong(songIndex);
+  playSong();
+};
+
+shuffleBtn.addEventListener("click", () => {
+  if (shuffleBtn.classList.contains("shuffle-active")) {
+    shuffleBtn.classList.remove("shuffle-active");
+  } else {
+    shuffleBtn.classList.add("shuffle-active");
+  }
+});
+
 playPauseBtn.addEventListener("click", () => {
   if (container.classList.contains("pause")) {
+    playPauseBtn.classList.remove("play-pause-active");
     pauseSong();
   } else {
+    playPauseBtn.classList.add("play-pause-active");
     playSong();
   }
 });
@@ -135,7 +157,13 @@ songTime.addEventListener("click", (e) => {
   let clickedOffset = e.offsetX;
   let songDuration = audio.duration;
   audio.currentTime = (clickedOffset / progressWidth) * songDuration;
-  playSong()
+  playSong();
 });
 
-audio.addEventListener('ended', nextSongPlay)
+audio.addEventListener("ended", () => {
+  if (shuffleBtn.classList.contains("shuffle-active")) {
+    shuffleSong();
+  } else {
+    nextSongPlay();
+  }
+});
