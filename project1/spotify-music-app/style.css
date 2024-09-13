@@ -61,6 +61,13 @@ html {
   background: linear-gradient(to right, #3baa7b, #62bc68);
 }
 
+.repeat-active {
+  transform: translateY(0.2rem);
+  color: #fff;
+  box-shadow: 0.5rem 0.5rem 2rem -0.1rem rgba(0, 0, 0, 0.8), -0.8rem -0.8rem 2rem -0.2rem rgba(255, 255, 255, 0.4);
+  background: linear-gradient(to right, #3baa7b, #62bc68);
+}
+
 .player-top span {
   font-size: 1.3rem;
   color: #a8a9ab;
