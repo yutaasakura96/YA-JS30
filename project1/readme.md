@@ -29,7 +29,7 @@ This is a custom-built Spotify-inspired music player, designed using HTML, CSS, 
 
 ## Future Improvements
 - Add shuffle and repeat functionality to shuffle through songs and repeat the current track.
-- Add more dynamic song data by integrating with the Spotify API.
+- Add more dynamic song data by integrating with the Spotify API or SoundCloud API (https://developers.soundcloud.com/docs).
 - Implement volume control.
 - Add playlist functionality where users can create and save their own playlists.
 - Make the player more interactive by allowing drag and drop song reordering.
