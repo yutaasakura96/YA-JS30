@@ -34,6 +34,8 @@ const songProgress = document.querySelector(".song-progress");
 const coverName = document.querySelector(".cover span:nth-child(1)");
 const coverArtist = document.querySelector(".cover span:nth-child(2)");
 
+document.getElementById("year").textContent = new Date().getFullYear();
+
 let songIndex = 0;
 
 window.addEventListener("load", () => {
