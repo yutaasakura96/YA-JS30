@@ -1,5 +1,5 @@
 # YA-JS30
-A collection of 30 small vanilla JavaScript, CSS, and HTML web apps.
+A collection of 30 small vanilla JavaScript, CSS, and HTML web apps inspired by WESBOS' JS30
 
 ## Projects
 1. [Project 1 - Description](./project1)
