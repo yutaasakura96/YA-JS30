@@ -9,7 +9,7 @@ A custom-built, Neomorphism design spotify-inspired music player  that allows us
 
 ![spotify](https://github.com/user-attachments/assets/d5576fee-908e-42ab-a5b5-3a49e78a7ea7)
 
-[More info](./project1/readme.md) 
+📖 [More info](./project1/readme.md) 
 
 ### 2. [Product Card](./project2) 
 A stylish and modern product card built using HTML, CSS, and vanilla JavaScript.
@@ -20,7 +20,7 @@ A stylish and modern product card built using HTML, CSS, and vanilla JavaScript.
 
 ![product-card](https://github.com/user-attachments/assets/937b8921-7854-4c3e-94d8-9970ebf3b974)
 
-[More info](./project2/readme.md) 
+📖 [More info](./project2/readme.md) 
 
 ### 3. [CSS Navigation Menu](./project3/navigation-menu) 
 A simple yet elegant CSS navigation menu with hover animations. This project features a vertical navigation bar with custom animations on hover.
@@ -31,9 +31,19 @@ A simple yet elegant CSS navigation menu with hover animations. This project fea
 
 ![cssnav](https://github.com/user-attachments/assets/0e619ec5-2899-4322-8465-94990a730efc)
 
-[More info](./project3/navigation-menu/readme.md) 
+📖 [More info](./project3/navigation-menu/readme.md) 
 
-4. [Project 4 - Description](./project4)
+### 4. [Success / Fail Modal Box](./project4) 
+This project implements a stylish **Success** and **Fail** modal box using HTML, CSS, and JavaScript. The modal boxes are triggered by buttons and include smooth animations with custom icons for both success and failure scenarios.
+
+
+[Live Demo](https://ya-js30-project4.netlify.app/)
+
+![modalbox](https://github.com/user-attachments/assets/8b3889d5-394b-4bee-a826-fe2e76c7bb35) 
+![modalbox2](https://github.com/user-attachments/assets/187513bf-729d-41ac-9de7-1687996dc333)
+
+📖 [More info](./project4/readme.md) 
+
 5. [Project 5 - Description](./project5)
 6. [Project 6 - Description](./project6)
 7. [Project 7 - Description](./project7)
