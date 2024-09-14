@@ -2,10 +2,10 @@
 A collection of 30 small vanilla JavaScript, CSS, and HTML web apps inspired by WESBOS' JS30
 
 ## Projects
-### 1. [Spotify Music App](./project1) 🎧
+### 1. [Spotify Music App](./project1) 
 A custom-built, Spotify-inspired music player that allows users to play, pause, skip, repeat and shuffle songs from a pre-defined playlist.
 
-🔗 <a href="https://ya-js30-project1.netlify.app/" target="_blank">Live Demo</a>
+[🎧 Live Demo](https://ya-js30-project1.netlify.app/)
 
 ![spotify](https://github.com/user-attachments/assets/d5576fee-908e-42ab-a5b5-3a49e78a7ea7)
 
