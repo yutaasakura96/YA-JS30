@@ -3,13 +3,25 @@ A collection of 30 small vanilla JavaScript, CSS, and HTML web apps inspired by 
 
 ## Projects
 ### 1. [Spotify Music App](./project1) 
-A custom-built, Spotify-inspired music player that allows users to play, pause, skip, repeat and shuffle songs from a pre-defined playlist.
+A custom-built, Neomorphism design spotify-inspired music player  that allows users to play, pause, skip, repeat and shuffle songs from a pre-defined playlist.
 
 [🎧 Live Demo](https://ya-js30-project1.netlify.app/)
 
 ![spotify](https://github.com/user-attachments/assets/d5576fee-908e-42ab-a5b5-3a49e78a7ea7)
 
-2. [Project 2 - Description](./project2)
+[More info](./project1/readme.md) 
+
+### 2. [Product Card](./project2) 
+A stylish and modern product card built using HTML, CSS, and vanilla JavaScript.
+
+⚠️ **Note**: This project is designed to work best on screen sizes of **1400px and upwards**. It may not be fully responsive on smaller screens.
+
+[Live Demo](https://ya-js30-project2.netlify.app/)
+
+![product-card](https://github.com/user-attachments/assets/937b8921-7854-4c3e-94d8-9970ebf3b974)
+
+[More info](./project2/readme.md) 
+
 3. [Project 3 - Description](./project3)
 4. [Project 4 - Description](./project4)
 5. [Project 5 - Description](./project5)
