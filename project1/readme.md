@@ -1,6 +1,6 @@
 # Spotify Music App
 
-This is a custom-built Spotify-inspired music player, designed using HTML, CSS, JavaScript, and Font Awesome icons. The app allows users to play, pause, skip, and shuffle songs from a pre-defined playlist. The player features Neomorphism designed buttons and rotating disc with rotating effect using CSS animations and responsive design, making it a sleek and modern music experience.
+This is a custom-built Spotify-inspired music player, designed using HTML, CSS, JavaScript, and Font Awesome icons. The app allows users to play, pause, skip, repeat and shuffle songs from a pre-defined playlist. The player features Neomorphism designed buttons and rotating disc with rotating effect using CSS animations and responsive design, making it a sleek and modern music experience.
 
 ## Features
 
