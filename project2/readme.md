@@ -8,17 +8,6 @@ A stylish and modern product card built using HTML, CSS, and vanilla JavaScript.
 - **Product Information**: Displays a product description, price, and a purchase button for easy interaction.
 - **Custom Fonts**: Utilizes the Google Fonts API to apply the `Kanit` font for a modern look.
 
-## Project Structure 🏗️
-
-```
-project-root/
-│
-├── index.html         # Main HTML file
-├── style.css          # Main CSS file
-├── images/            # Folder containing product images (e.g., beatsstudiopro.png)
-└── README.md          # Project documentation
-```
-
 
 ## Tech Stack 🛠️
 
