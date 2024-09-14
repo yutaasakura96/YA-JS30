@@ -2,6 +2,8 @@
 
 A stylish and modern product card built using HTML, CSS, and vanilla JavaScript. This project showcases the **Beats Studio Pro** headphones with an elegant, animated design and smooth visual effects.
 
+⚠️ **Note**: This project is designed to work best on screen sizes of **1400px and upwards**. It may not be fully responsive on smaller screens.
+
 ## Features 🚀
 
 - **Stylish Animations**: Shadows, background elements, and the product image have smooth animations to enhance the visual appeal.
@@ -25,14 +27,11 @@ project-root/
 ## Future Improvements
 - Adding responsiveness to all screen sizes
 
-## Credits
-
-- © 2024 Created and Coded by Yuta Asakura.
-- Inspired by the Beats Studio Pro.
+Created and Coded by [Yuta Asakura](https://www.asakurayuta.dev/) © <span id="year"></span>
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. Feel free to use, modify, and share it as you like!
 
 ### Key Sections:
 - **Features**: Describes the key features of the product card (animations, product info, responsiveness).
