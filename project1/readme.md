@@ -1,4 +1,4 @@
-# Spotify Music App
+# Spotify Music App 📻
 
 This is a custom-built Spotify-inspired music player, designed using HTML, CSS, JavaScript, and Font Awesome icons. The app allows users to play, pause, skip, repeat and shuffle songs from a pre-defined playlist. The player features Neomorphism designed buttons and rotating disc with rotating effect using CSS animations and responsive design, making it a sleek and modern music experience.
 
@@ -36,10 +36,10 @@ This is a custom-built Spotify-inspired music player, designed using HTML, CSS, 
 - Make the player more interactive by allowing drag and drop song reordering.
 
 ## Credits
-
-- © 2024 Created and Coded by Yuta Asakura.
 - Inspired by the Spotify music app.
+
+Created and Coded by [Yuta Asakura](https://www.asakurayuta.dev/) © <span id="year"></span>
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. Feel free to use, modify, and share it as you like!
