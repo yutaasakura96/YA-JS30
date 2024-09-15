@@ -29,6 +29,30 @@ html _{
   display: flex;
   border-radius: 2rem;
   box-shadow: 0 0.3rem 0.3rem rgba(32, 61, 127, 0.3);
+  overflow: hidden;
+}
+
+.form-wrapper img {
+  width: 35rem;
+  position: absolute;
+  z-index: 100;
+}
+
+.img-left {
+  top: 25%;
+  left: 8%;
+}
+
+.form-wrapper-bg {
+  position: absolute;
+  width: 100rem;
+  height: 100rem;
+  background-color: #407bff;
+  border-radius: 15rem;
+  left: -40%;
+  top: -90%;
+  transform-origin: right bottom;
+  transform: rotateZ(-40deg);
 }
 
 .form-wrapper-left , .form-wrapper-right {
@@ -37,5 +61,91 @@ html _{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
+}
+
+.form-wrapper-left {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.form-wrapper h1 {
+  font-size: 6rem;
+  color: #407bff;
+  margin: -5rem 0 6rem 0;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group input {
+  width: 25rem;
+  height: 5rem;
+  margin: 1rem 0;
+  border: none;
+  border-bottom: 0.2rem solid rgba(60, 125, 255, 0.5);
+  color: #407bff;
+  font-size: 1.4rem;
+  padding-right: 2rem;
+  background-color: transparent;
+}
+
+.input-group input::placeholder {
+  color: #407bff;
+  letter-spacing: 0.1;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.input-group input:focus {
+  border-color: #407bff;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  right: .5rem;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: #407bff;
+}
+
+.form-btn {
+  width: 20rem;
+  height: 4.5rem;
+  margin-top: 2rem;
+  border-radius: 5rem;
+  border: none;
+  background-color: #407bff;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0.5rem 1rem rgba(60, 125, 255, 0.5);
+  cursor: pointer;
+}
+
+.form-btn:active {
+  transform: translateY(00.2rem);
+}
+
+.form-wrapper a {
+  position: absolute;
+  bottom: 4rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #407bff;
+}
+
+.signup-link {
+  right: 4rem;
+}
+
+.signin-link {
+  left: 4rem;
 }
