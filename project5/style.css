@@ -4,10 +4,10 @@
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
-  font-family: "Signika Negative", sans-serif;
+  font-family: "Signika Negative";
 }
 
-html _{
+html {
   font-size: 62.5%;
 }
 
@@ -22,14 +22,31 @@ html _{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   width: 100rem;
   height: 65rem;
   background-color: #fff;
   display: flex;
   border-radius: 2rem;
-  box-shadow: 0 0.3rem 0.3rem rgba(32, 61, 127, 0.3);
+  box-shadow: 0 0.3rem 3rem rgba(32, 61, 127, 0.3);
   overflow: hidden;
+}
+
+.form-wrapper-bg {
+  position: absolute;
+  width: 100rem;
+  height: 100rem;
+  background-color: #407bff;
+  border-radius: 15rem;
+  left: -40%;
+  top: -90%;
+  transform-origin: right bottom;
+  transform: rotateZ(-40deg);
+  transition: transform 1.5s;
+}
+
+.navigate .form-wrapper-bg {
+  transform: rotateZ(130deg) translateX(15rem) translateY(15rem);
 }
 
 .form-wrapper img {
@@ -54,9 +71,9 @@ html _{
 .img-right {
   top: 17%;
   right: 7%;
-  transform: translateY(-5rem);
   opacity: 0;
   visibility: hidden;
+  transform: translateY(-5rem);
   transition: all 0.5s;
 }
 
@@ -67,24 +84,8 @@ html _{
   transition: all 0.5s 1s;
 }
 
-.form-wrapper-bg {
-  position: absolute;
-  width: 100rem;
-  height: 100rem;
-  background-color: #407bff;
-  border-radius: 15rem;
-  left: -40%;
-  top: -90%;
-  transform-origin: right bottom;
-  transform: rotateZ(-40deg);
-  transition: transform 1.5s;
-}
-
-.navigate .form-wrapper-bg {
-  transform: rotateZ(130deg) translate(15rem, 15rem);
-}
-
-.form-wrapper-left , .form-wrapper-right {
+.form-wrapper-left,
+.form-wrapper-right {
   width: 50%;
   height: 100%;
   display: flex;
@@ -97,16 +98,17 @@ html _{
 .form-wrapper-left {
   opacity: 0;
   visibility: hidden;
-  transform: all 0.5s;
+  transition: all 0.5s;
 }
+
 .navigate .form-wrapper-left {
   opacity: 1;
   visibility: visible;
-  transition: all .5s 1s;
+  transition: all 0.5s 1s;
 }
 
 .form-wrapper-right {
-  transition: all .5s 1s;
+  transition: all 0.5s 1s;
 }
 
 .navigate .form-wrapper-right {
@@ -121,8 +123,6 @@ html _{
   margin: -5rem 0 6rem 0;
 }
 
-
-
 .input-group {
   position: relative;
 }
@@ -132,7 +132,7 @@ html _{
   height: 5rem;
   margin: 1rem 0;
   border: none;
-  border-bottom: 0.2rem solid rgba(60, 125, 255, 0.5);
+  border-bottom: 0.2rem solid rgba(64, 123, 255, 0.5);
   color: #407bff;
   font-size: 1.4rem;
   padding-right: 2rem;
@@ -141,7 +141,7 @@ html _{
 
 .input-group input::placeholder {
   color: #407bff;
-  letter-spacing: 0.1;
+  letter-spacing: 0.1rem;
   font-size: 1.2rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -154,9 +154,9 @@ html _{
 .input-group i {
   position: absolute;
   top: 50%;
-  right: .5rem;
+  right: 0.5rem;
   transform: translateY(-50%);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #407bff;
 }
 
@@ -164,20 +164,20 @@ html _{
   width: 20rem;
   height: 4.5rem;
   margin-top: 2rem;
-  border-radius: 5rem;
   border: none;
+  border-radius: 5rem;
   background-color: #407bff;
   color: #fff;
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
-  box-shadow: 0 0.5rem 1rem rgba(60, 125, 255, 0.5);
+  box-shadow: 0 0.5rem 1rem rgba(64, 123, 255, 0.4);
   cursor: pointer;
 }
 
 .form-btn:active {
-  transform: translateY(00.2rem);
+  transform: translateY(0.2rem);
 }
 
 .form-wrapper a {
