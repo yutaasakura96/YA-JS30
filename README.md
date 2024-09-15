@@ -12,7 +12,7 @@ A custom-built, Neomorphism design spotify-inspired music player  that allows us
 📖 [More info](./project1/readme.md) 
 
 ### 2. [Product Card](./project2) 
-A stylish and modern product card built using HTML, CSS, and vanilla JavaScript.
+A stylish and modern product card built using HTML and CSS.
 
 ⚠️ **Note**: This project is designed to work best on screen sizes of **1400px and upwards**. It may not be fully responsive on smaller screens.
 
@@ -47,6 +47,7 @@ This project implements a stylish **Success** and **Fail** modal box using HTML,
 ### 5. [Sign Up - Sign In Forms](./project5) 
 A modern and visually appealing **Sign Up** and **Sign In** form design with smooth transitions between both forms.
 
+⚠️ **Note**: This project is designed to work best on screen sizes of **1024px and upwards**. It may not be fully responsive on smaller screens.
 
 [Live Demo](https://ya-js30-project5.netlify.app/)
 
