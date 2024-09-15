@@ -44,7 +44,17 @@ This project implements a stylish **Success** and **Fail** modal box using HTML,
 
 📖 [More info](./project4/readme.md) 
 
-5. [Project 5 - Description](./project5)
+### 5. [Sign Up - Sign In Forms](./project5) 
+A modern and visually appealing **Sign Up** and **Sign In** form design with smooth transitions between both forms.
+
+
+[Live Demo](https://ya-js30-project5.netlify.app/)
+
+![sign-in-form](https://github.com/user-attachments/assets/46185332-95a8-40ee-b1be-fe131b3fefea)
+
+📖 [More info](./project5/readme.md) 
+
+
 6. [Project 6 - Description](./project6)
 7. [Project 7 - Description](./project7)
 8. [Project 8 - Description](./project8)
