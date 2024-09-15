@@ -41,6 +41,30 @@ html _{
 .img-left {
   top: 25%;
   left: 8%;
+  transition: all 0.5s 1s;
+}
+
+.navigate .img-left {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5rem);
+  transition: all 0.5s;
+}
+
+.img-right {
+  top: 17%;
+  right: 7%;
+  transform: translateY(-5rem);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.navigate .img-right {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(5rem);
+  transition: all 0.5s 1s;
 }
 
 .form-wrapper-bg {
@@ -53,6 +77,11 @@ html _{
   top: -90%;
   transform-origin: right bottom;
   transform: rotateZ(-40deg);
+  transition: transform 1.5s;
+}
+
+.navigate .form-wrapper-bg {
+  transform: rotateZ(130deg) translate(15rem, 15rem);
 }
 
 .form-wrapper-left , .form-wrapper-right {
@@ -68,6 +97,22 @@ html _{
 .form-wrapper-left {
   opacity: 0;
   visibility: hidden;
+  transform: all 0.5s;
+}
+.navigate .form-wrapper-left {
+  opacity: 1;
+  visibility: visible;
+  transition: all .5s 1s;
+}
+
+.form-wrapper-right {
+  transition: all .5s 1s;
+}
+
+.navigate .form-wrapper-right {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
 }
 
 .form-wrapper h1 {
@@ -75,6 +120,8 @@ html _{
   color: #407bff;
   margin: -5rem 0 6rem 0;
 }
+
+
 
 .input-group {
   position: relative;
