@@ -45,11 +45,10 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 
 ---
 
-Created and Coded by [Yuta Asakura](https://your-website.com)
+Created and Coded by [Yuta Asakura](https://www.asakurayuta.dev/)
 
 ### Key Sections:
 - **Features**: Highlights the main features of the Sign Up/Sign In forms.
 - **How to Use**: Instructions for cloning and running the project.
 - **Project Structure**: Overview of the project file layout.
-- **Screenshots**: Add your screenshots under the `images` folder and update the links accordingly.
 - **Tech Stack**: Mentions the technologies and tools used in the project.
