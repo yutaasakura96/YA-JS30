@@ -56,7 +56,18 @@ A modern and visually appealing **Sign Up** and **Sign In** form design with smo
 📖 [More info](./project5/readme.md) 
 
 
-6. [Project 6 - Description](./project6)
+### 6. [Landing Page](./project6) 
+A modern and visually appealing landing page for **CreativeHub**
+
+⚠️ **Note**: This project is designed to work best on screen sizes of **1440px and upwards**. It may not be fully responsive on smaller screens.
+
+[Live Demo](https://ya-js-30-project6.netlify.app/)
+
+![Landing Page](https://github.com/user-attachments/assets/2e00e554-9d33-42f8-9e0d-584cc8bb86c2)
+
+
+📖 [More info](./project6/readme.md) 
+
 7. [Project 7 - Description](./project7)
 8. [Project 8 - Description](./project8)
 9. [Project 9 - Description](./project9)
