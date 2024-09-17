@@ -61,14 +61,26 @@ A modern and visually appealing landing page for **CreativeHub**
 
 ⚠️ **Note**: This project is designed to work best on screen sizes of **1440px and upwards**. It may not be fully responsive on smaller screens.
 
-[Live Demo](https://ya-js-30-project6.netlify.app/)
+[Live Demo](https://ya-js30-project6.netlify.app/)
 
 ![Landing Page](https://github.com/user-attachments/assets/2e00e554-9d33-42f8-9e0d-584cc8bb86c2)
 
 
 📖 [More info](./project6/readme.md) 
 
-7. [Project 7 - Description](./project7)
+### 7. [Blog Card](./project7) 
+This project features a dynamic and visually appealing **Blog Card** designed using HTML, CSS, and JavaScript.
+⚠️ **Note**: This project is designed to work best on screen sizes of **1440px and upwards**. It may not be fully responsive on smaller screens.
+
+[Live Demo](https://ya-js30-project7.netlify.app/)
+
+![Screenshot 2024-09-17 at 22 26 19](https://github.com/user-attachments/assets/b45ffc01-5c2c-45d0-9850-19ea4a796895)
+![Screenshot 2024-09-17 at 22 26 10](https://github.com/user-attachments/assets/a011d18f-19fe-4fb1-89dd-14f5d96ff67f)
+
+📖 [More info](./project7/readme.md) 
+
+🏗️ Projects 9 - 30 coming soon!
+
 8. [Project 8 - Description](./project8)
 9. [Project 9 - Description](./project9)
 10. [Project 10 - Description](./project10)
