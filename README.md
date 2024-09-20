@@ -98,11 +98,19 @@ This project is a **Light/Dark Mode** form that switches between light and dark 
 ![light:darkmode2](https://github.com/user-attachments/assets/d524c0db-c876-4ef9-9fc2-24a68f170fb9)
 
 
+### 9. [Random Quote Generator](./project9)
+A simple and elegant **Random Quote Generator** built using HTML, CSS, and JavaScript. This project displays a random quote from an API with an option to tweet the quote directly via Twitter.
 
-🏗️ Projects 9 - 30 coming soon!
+📖 [More info](./project9/readme.md) 
+
+[Live Demo](https://ya-js30-project9.netlify.app/)
+
+![randomquote](https://github.com/user-attachments/assets/0440e8df-fc91-488c-b10f-07aeeeb7724a)
 
 
-9. [Project 9 - Description](./project9)
+
+🏗️ Projects 10 - 30 coming soon!
+
 10. [Project 10 - Description](./project10)
 11. [Project 11 - Description](./project11)
 12. [Project 12 - Description](./project12)
