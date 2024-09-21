@@ -1,12 +1,26 @@
 const imageContainer = document.querySelector(".image-container");
-const loader = document.querySelector("loader");
-
-let photosArray = [];
+const loader = document.querySelector(".loader");
 
 // Unsplash API
-const count = 10;
-// const apiKey = 'insert your unsplash api key here'
+let ready = false;
+let imagesLoaded = 0;
+let totalImages = 0;
+let photosArray = [];
+let count = 5;
+
+// const apiKey = "Insert your unsplash API key here";
+
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
+
+// Check if all images were loaded
+function imageLoaded() {
+  imagesLoaded++;
+  if (imagesLoaded === totalImages) {
+    ready = true;
+    loader.hidden = true;
+    count = 30;
+  }
+}
 
 // Helper Function to Set Attributes on DOM elements
 function setAttributes(element, attributes) {
@@ -14,25 +28,28 @@ function setAttributes(element, attributes) {
     element.setAttribute(key, attributes[key]);
   }
 }
-
 // Create Elements for Links & Photos, Add to DOM
 function displayPhotos() {
-  // Run Function for each object in photosArray
+  imagesLoaded = 0;
+  totalImages = photosArray.length;
+  // Run function for each object in photos array
   photosArray.forEach((photo) => {
     // Create <a> to link to Unsplash
     const item = document.createElement("a");
     setAttributes(item, {
       href: photo.links.html,
-      target: _blank,
+      target: "_blank",
     });
+
     // Create <img> for photo
     const img = document.createElement("img");
     setAttributes(img, {
       src: photo.urls.regular,
       alt: photo.alt_description,
-      title: photo_description,
+      title: photo.alt_description,
     });
-    // Put <img> inside <a>, then put both isnide Image Container
+    img.addEventListener("load", imageLoaded);
+    // Put <img> inside <a>, then put both inside Image Container
     item.appendChild(img);
     imageContainer.appendChild(item);
   });
@@ -45,9 +62,19 @@ async function getPhotos() {
     photosArray = await response.json();
     displayPhotos();
   } catch (error) {
-    // Catch Error here
+    console.error("Error fetching photos:", error);
   }
 }
+
+window.addEventListener("scroll", (e) => {
+  if (
+    window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000 &&
+    ready
+  ) {
+    ready = false;
+    getPhotos();
+  }
+});
 
 // On Load
 getPhotos();
