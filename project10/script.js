@@ -8,9 +8,12 @@ let totalImages = 0;
 let photosArray = [];
 let count = 5;
 
-// const apiKey = "Insert your unsplash API key here";
+// Use the Netlify serverless function to get Unsplash photos this will protect your UNSPLASH API KEY from being exposed
+const apiUrl = `/.netlify/functions/getUnsplashPhotos?count=${count}`;
 
-const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
+// If you are not deploying this project use this method
+// const apiKey = "Insert your unsplash API key here";
+// const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 // Check if all images were loaded
 function imageLoaded() {
