@@ -8,12 +8,8 @@ let totalImages = 0;
 let photosArray = [];
 let count = 5;
 
-// Use the Netlify serverless function to get Unsplash photos this will protect your UNSPLASH API KEY from being exposed
+// Use the Netlify serverless function to get Unsplash photos
 const apiUrl = `/.netlify/functions/getUnsplashPhotos?count=${count}`;
-
-// If you are not deploying this project use this method
-// const apiKey = "Insert your unsplash API key here";
-// const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 // Check if all images were loaded
 function imageLoaded() {
@@ -31,20 +27,18 @@ function setAttributes(element, attributes) {
     element.setAttribute(key, attributes[key]);
   }
 }
+
 // Create Elements for Links & Photos, Add to DOM
 function displayPhotos() {
   imagesLoaded = 0;
   totalImages = photosArray.length;
-  // Run function for each object in photos array
   photosArray.forEach((photo) => {
-    // Create <a> to link to Unsplash
     const item = document.createElement("a");
     setAttributes(item, {
       href: photo.links.html,
       target: "_blank",
     });
 
-    // Create <img> for photo
     const img = document.createElement("img");
     setAttributes(img, {
       src: photo.urls.regular,
@@ -52,24 +46,28 @@ function displayPhotos() {
       title: photo.alt_description,
     });
     img.addEventListener("load", imageLoaded);
-    // Put <img> inside <a>, then put both inside Image Container
     item.appendChild(img);
     imageContainer.appendChild(item);
   });
 }
 
-// Get photo from Unsplash API
+// Get photos from Netlify serverless function
 async function getPhotos() {
   try {
     const response = await fetch(apiUrl);
-    photosArray = await response.json();
-    displayPhotos();
+    const data = await response.json();
+    if (Array.isArray(data)) {
+      photosArray = data;
+      displayPhotos();
+    } else {
+      console.error("Unexpected response format:", data);
+    }
   } catch (error) {
     console.error("Error fetching photos:", error);
   }
 }
 
-window.addEventListener("scroll", (e) => {
+window.addEventListener("scroll", () => {
   if (
     window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000 &&
     ready
