@@ -105,26 +105,39 @@ const VoiceRSS = {
   },
 };
 
-function toggleButton() {
-  button.disabled = !button.disabled;
+// Function to get the API key from the serverless function
+async function getAPIKey() {
+  try {
+    const response = await fetch('/.netlify/functions/get-voicerss');
+    const data = await response.json();
+    return data.key;
+  } catch (error) {
+    console.error('Error fetching API key:', error);
+  }
 }
 
-// VOICE RSS API Text to Speech Functionality
-// Passing Joke to VoiceRSS API
-function tellMe(joke) {
-  VoiceRSS.speech({
-    key: "Your VOICERSS API KEY HERE",
-    src: joke,
-    hl: "en-us",
-    v: "Linda",
-    r: 0,
-    c: "mp3",
-    f: "44khz_16bit_stereo",
-    ssml: false,
-  });
+// Function to use VoiceRSS Text-to-Speech
+async function tellMe(joke) {
+  try {
+    const apiKey = await getAPIKey();
+    if (!apiKey) throw new Error("API key not available");
+
+    VoiceRSS.speech({
+      key: apiKey,
+      src: joke,
+      hl: "en-us",
+      v: "Linda",
+      r: 0,
+      c: "mp3",
+      f: "44khz_16bit_stereo",
+      ssml: false,
+    });
+  } catch (error) {
+    console.error("Error:", error);
+  }
 }
 
-// Get Jokes from JOKE API
+// Fetch a joke from the joke API
 async function getJokes() {
   let joke = "";
   const apiUrl =
@@ -138,16 +151,18 @@ async function getJokes() {
     } else {
       joke = data.joke;
     }
-    // Text-to-Speech
     tellMe(joke);
-    // Disable Button
     toggleButton();
   } catch (error) {
-    // Catch Errors Here
-    console.log("Error", error);
+    console.error("Error fetching joke:", error);
   }
 }
 
-// Event Listeners
+// Toggle the button state
+function toggleButton() {
+  button.disabled = !button.disabled;
+}
+
+// Event listeners for the button and audio element
 button.addEventListener("click", getJokes);
 audioElement.addEventListener("ended", toggleButton);
