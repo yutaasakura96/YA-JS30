@@ -107,11 +107,18 @@ A simple and elegant **Random Quote Generator** built using HTML, CSS, and JavaS
 
 ![randomquote](https://github.com/user-attachments/assets/0440e8df-fc91-488c-b10f-07aeeeb7724a)
 
+### 10. [Unsplash API Infinite Scroll](./project10)
+A web app that fetches random photos from the Unsplash API and displays them in an infinite scrolling layout. As the user scrolls down, more photos are loaded automatically. This project leverages a serverless function using Netlify to securely fetch photos from Unsplash without exposing the API key in the frontend.
+
+📖 [More info](./project10/readme.md) 
+
+[Live Demo](https://ya-js30-project-10.netlify.app/)
+
+![Screenshot 2024-09-23 at 9 41 09](https://github.com/user-attachments/assets/583bff30-1683-499d-b3f7-4d77fd3facd4)
 
 
-🏗️ Projects 10 - 30 coming soon!
+🏗️ Projects 11 - 30 coming soon!
 
-10. [Project 10 - Description](./project10)
 11. [Project 11 - Description](./project11)
 12. [Project 12 - Description](./project12)
 13. [Project 13 - Description](./project13)
