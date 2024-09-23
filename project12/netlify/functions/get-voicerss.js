@@ -7,10 +7,3 @@ exports.handler = async (event) => {
     body: JSON.stringify({ key: API_KEY }),
   };
 };
-// exports.handler = async () => {
-//   console.log("Function called");
-//   return {
-//     statusCode: 200,
-//     body: JSON.stringify({ message: "Function is working!" }),
-//   };
-// };
