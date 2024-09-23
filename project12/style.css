@@ -40,6 +40,7 @@ button {
   border: none;
   border-radius: .5rem;
   box-shadow: .2rem .2rem 2rem 1rem rgba(0, 0, 0, 0.2);
+  margin-top: 55rem;
 }
 
 button:hover {
@@ -56,7 +57,7 @@ button:disabled {
 }
 
 /* Mediq Query: Tablet or Smaller Devices */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .container {
     background-position: center center;
     background-size: cover;
@@ -64,5 +65,11 @@ button:disabled {
 
   button {
     box-shadow: .5rem .5rem 3rem 2rem rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  button {
+    margin-right: 25rem;
   }
 }

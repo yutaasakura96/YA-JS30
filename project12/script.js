@@ -105,11 +105,15 @@ const VoiceRSS = {
   },
 };
 
+function toggleButton() {
+  button.disabled = !button.disabled;
+}
+
 // VOICE RSS API Text to Speech Functionality
 // Passing Joke to VoiceRSS API
 function tellMe(joke) {
   VoiceRSS.speech({
-    key: "YOUR VOICERSS APIKEY HERE",
+    key: "Your VOICERSS API KEY HERE",
     src: joke,
     hl: "en-us",
     v: "Linda",
@@ -134,10 +138,16 @@ async function getJokes() {
     } else {
       joke = data.joke;
     }
+    // Text-to-Speech
     tellMe(joke);
+    // Disable Button
+    toggleButton();
   } catch (error) {
     // Catch Errors Here
     console.log("Error", error);
   }
 }
-getJokes();
+
+// Event Listeners
+button.addEventListener("click", getJokes);
+audioElement.addEventListener("ended", toggleButton);
