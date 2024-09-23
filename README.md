@@ -125,9 +125,17 @@ This project demonstrates how to use the **Picture-in-Picture** functionality in
 
 ![pictureinpicture](https://github.com/user-attachments/assets/6eba3b3e-a977-40de-9f4d-12531e741330)
 
-🏗️ Projects 12 - 30 coming soon!
+### 12. [Joke Teller Robot](./project12)
+A fun web application that tells programming jokes using JokeAPI and reads them aloud using the VoiceRSS Text-to-Speech API. This app uses serverless functions hosted on Netlify to securely handle the API key for the text-to-speech functionality.
 
-12. [Project 12 - Description](./project12)
+📖 [More info](./project12/readme.md) 
+
+[Live Demo](https://ya-js30-project12.netlify.app/)
+
+![joketellerrobt](https://github.com/user-attachments/assets/d605a43a-742d-4e16-aa4a-9a9f45deb7b1)
+
+🏗️ Projects 13 - 30 coming soon!
+
 13. [Project 13 - Description](./project13)
 14. [Project 14 - Description](./project14)
 15. [Project 15 - Description](./project15)
