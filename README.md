@@ -116,10 +116,17 @@ A web app that fetches random photos from the Unsplash API and displays them in 
 
 ![Screenshot 2024-09-23 at 9 41 09](https://github.com/user-attachments/assets/583bff30-1683-499d-b3f7-4d77fd3facd4)
 
+### 11. [Picture in Picture](./project11)
+This project demonstrates how to use the **Picture-in-Picture** functionality in the browser using vanilla JavaScript. The user can select a screen or window to share, and then view the media in a picture-in-picture window.
 
-🏗️ Projects 11 - 30 coming soon!
+📖 [More info](./project11/readme.md) 
 
-11. [Project 11 - Description](./project11)
+[Live Demo](https://ya-js30-project11.netlify.app/)
+
+![pictureinpicture](https://github.com/user-attachments/assets/6eba3b3e-a977-40de-9f4d-12531e741330)
+
+🏗️ Projects 12 - 30 coming soon!
+
 12. [Project 12 - Description](./project12)
 13. [Project 13 - Description](./project13)
 14. [Project 14 - Description](./project14)
