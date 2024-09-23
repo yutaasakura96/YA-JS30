@@ -1,7 +1,7 @@
 const videoElement = document.getElementById("video");
 const button = document.getElementById("button");
 
-// Prompt  to Select Media Stream, Pass video to element then play.
+// Prompt to select media stream, pass video to element, then play.
 async function selectMediaStream() {
   try {
     const mediaStream = await navigator.mediaDevices.getDisplayMedia();
@@ -9,19 +9,19 @@ async function selectMediaStream() {
     videoElement.onloadedmetadata = () => {
       videoElement.play();
     };
-  } catch {
-    console.log("error", error);
+  } catch (error) {
+    console.log("Error occurred: ", error);
   }
 }
 
 button.addEventListener("click", async () => {
-  // Disable Button
+  // Disable button to prevent multiple requests
   button.disabled = true;
-  // start Picture in Picture
+  // Start Picture-in-Picture mode
   await videoElement.requestPictureInPicture();
-  // reset button
+  // Re-enable button after entering Picture-in-Picture
   button.disabled = false;
 });
 
-// On Load
+// On page load, prompt the user to select a media stream
 selectMediaStream();
