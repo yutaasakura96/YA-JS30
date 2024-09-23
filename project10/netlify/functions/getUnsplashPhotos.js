@@ -1,5 +1,7 @@
 //netlify/functions/getUnsplashPhotos.js
-require("dotenv").config();
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
 const axios = require("axios");
 
 exports.handler = async (event, context) => {
