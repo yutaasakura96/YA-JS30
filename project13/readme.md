@@ -65,7 +65,6 @@ project-root/
 - **Completion Message**: Once the countdown reaches zero, a message is displayed, indicating that the event is complete.
 
 ## Video Compression & Source 🎥
-
     •	The background video was sourced from Pixabay and compressed using YouCompress to optimize the file size for faster loading times.
 
 ## Future Improvements 🛠️
@@ -77,8 +76,6 @@ project-root/
 ## License 📄
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it.
-
----
 
 Created and Coded by [Yuta Asakura](https://asakurayuta.dev)
 
