@@ -31,21 +31,25 @@ project-root/
 ## How to Use 🔧
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/your-username/custom-countdown.git
    ```
 
 2. **Navigate to the project directory**:
+
    ```bash
    cd custom-countdown
    ```
 
 3. **Open the `index.html` file in your browser**:
+
    ```bash
    open index.html
    ```
 
 4. **Set a Countdown**:
+
    - Enter a title for the event you're counting down to.
    - Select a future date from the date picker.
    - Click 'Submit' to start the countdown.
@@ -60,6 +64,10 @@ project-root/
 - **Persistent Countdown**: The countdown data (title and date) is saved in `localStorage` so that even if the page is refreshed, the countdown will continue.
 - **Completion Message**: Once the countdown reaches zero, a message is displayed, indicating that the event is complete.
 
+## Video Compression & Source 🎥
+
+    •	The background video was sourced from Pixabay and compressed using YouCompress to optimize the file size for faster loading times.
+
 ## Future Improvements 🛠️
 
 - **Add Sound Alerts**: Play a sound when the countdown ends.
@@ -73,6 +81,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 ---
 
 Created and Coded by [Yuta Asakura](https://asakurayuta.dev)
+
 ```
 
 ### Key Sections:
@@ -81,3 +90,4 @@ Created and Coded by [Yuta Asakura](https://asakurayuta.dev)
 - **Project Structure**: Overview of the main files in the project.
 - **How It Works**: Explains the core functionality like the countdown process and localStorage usage.
 - **Future Improvements**: Optional section for potential future features.
+```
