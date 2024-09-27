@@ -134,9 +134,17 @@ A fun web application that tells programming jokes using JokeAPI and reads them 
 
 ![joketellerrobt](https://github.com/user-attachments/assets/d605a43a-742d-4e16-aa4a-9a9f45deb7b1)
 
-🏗️ Projects 13 - 30 coming soon!
+### 13. [Custom Countdown](./project13)
+A dynamic and customizable countdown timer built using HTML, CSS, and JavaScript. This project allows users to create a countdown for any upcoming event with a visually appealing video background.
 
-13. [Project 13 - Description](./project13)
+📖 [More info](./project13/readme.md) 
+
+[Live Demo](https://ya-js30-project13.netlify.app/)
+
+<img width="962" alt="customcountdown" src="https://github.com/user-attachments/assets/30dbc0d0-1a3c-4a18-9c5b-ce3115de11f4">
+
+🏗️ Projects 14 - 30 coming soon!
+
 14. [Project 14 - Description](./project14)
 15. [Project 15 - Description](./project15)
 16. [Project 16 - Description](./project16)
