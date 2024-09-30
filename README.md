@@ -143,9 +143,18 @@ A dynamic and customizable countdown timer built using HTML, CSS, and JavaScript
 
 <img width="962" alt="customcountdown" src="https://github.com/user-attachments/assets/30dbc0d0-1a3c-4a18-9c5b-ce3115de11f4">
 
-🏗️ Projects 14 - 30 coming soon!
+### 14. [Bookmark App](./project14)
+A simple bookmark manager app that allows users to save, manage, and access their favorite websites easily. Built with HTML, CSS, and JavaScript, this app stores your bookmarks locally in the browser using `localStorage`.
 
-14. [Project 14 - Description](./project14)
+📖 [More info](./project14/readme.md) 
+
+[Live Demo](https://ya-js30-project14.netlify.app/)
+
+![Screenshot 2024-09-30 at 18 59 43](https://github.com/user-attachments/assets/531f38a2-23f7-4feb-b8c1-e29e62254357)
+
+
+🏗️ Projects 15 - 30 coming soon!
+
 15. [Project 15 - Description](./project15)
 16. [Project 16 - Description](./project16)
 17. [Project 17 - Description](./project17)
