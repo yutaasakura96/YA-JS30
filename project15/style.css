@@ -131,6 +131,7 @@ body {
 
   .images-container {
     width: 100%;
+    line-height: 1.4;
   }
 
   .card-title {
