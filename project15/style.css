@@ -129,6 +129,10 @@ body {
     text-align: justify;
   }
 
+  .clickable {
+    margin-bottom: 1rem;
+  }
+
   .images-container {
     width: 100%;
     line-height: 1.4;
