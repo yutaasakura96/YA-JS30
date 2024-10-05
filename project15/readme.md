@@ -34,15 +34,9 @@ This web app allows users to view stunning images from NASA's Astronomy Picture 
    git clone https://github.com/your-username/nasa-api-pictures.git
 
 	2.	Navigate to the project directory:
-
-cd nasa-api-pictures
-
-
+  cd nasa-api-pictures
 	3.	Open the index.html file in your browser:
-
-open index.html
-
-
+  open index.html
 	4.	Browse NASA Images: Click “Load More” to fetch 10 new NASA images.
 	5.	Save to Favorites: Click “Add to Favorites” below an image to store it.
 	6.	View Favorites: Click the “Favorites” link to switch to your favorites list.
